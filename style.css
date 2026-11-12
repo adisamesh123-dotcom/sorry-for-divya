@@ -135,3 +135,19 @@ button:hover {
         font-size: 15px;
     }
 }
+
+.memory-photo {
+    width: 100%;
+    max-width: 260px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 18px;
+    margin: 15px auto;
+    display: block;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.memory-photo:hover {
+    transform: scale(1.03);
+}
